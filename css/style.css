@@ -170,6 +170,32 @@ button.neon.pink:hover {
     vertical-align: middle;
 }
 
+/*payment section  */
+.payment-section {
+    background:url('../images/payment-section.jpeg') center/cover no-repeat fixed;
+    text-align: center;
+    padding-top: 30px;
+}
+.payment-border {
+    border: 2px solid #222;
+    background-color:#222 ;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: none;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px 20px;
+	margin: 0px 4px;
+	cursor: pointer;
+}
+
+.color-red{
+    color:red;
+}
 .plan {
     font-size:18px;
 }
@@ -237,13 +263,56 @@ button.neon.pink:hover {
     margin: 0 auto 1.7rem auto;
 }
 /* portfolio */
-.portfolio-grid > div{
+
+#section-2 {
+    background-color: #000;
+}
+
+.section-2 > div{
     transition: var(--transition);
 }
-.portfolio-grid > div:hover{
+.section-2 > div:hover{
     transform: scale(0.9);
 }
 
+#left-about {
+    padding-top:30px;
+    width:33%;
+    float:left;
+    text-align: center;
+    
+}
+
+#right-about {
+    padding-top:30px;
+    width:33%;
+    float:right;
+    text-align: center;
+   
+}
+
+#center-about {
+    text-align:center;
+    width:33%;
+    padding-top:30px;
+    margin: 0 auto;
+   
+}
+
+#section-2-header {
+    font-size: 30px;
+    text-align: center;
+    color:#fff;
+}
+.section-2-font{
+    font-size:30px;
+    color:#fff;
+    margin-top:30px;
+}
+
+.section-2-image{
+    font-size: 120px;
+}
 /* contact */
 #contact{
     background-color: rgb(248, 248, 248);
