@@ -156,6 +156,27 @@ button.neon.pink:hover {
     opacity: 0.9;
 }
 
+/*creditcard images sizes */
+.img-content {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-content img {
+    margin: 0 10px;
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    vertical-align: middle;
+}
+
+.plan {
+    font-size:18px;
+}
+
+.under-plan {
+    font-size:16px;
+}
 /* about */
 .about-left{
     margin-bottom: 4rem;
