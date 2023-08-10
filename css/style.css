@@ -73,6 +73,11 @@ h1, h2, h3{
     line-height: 1.8;
 }
 
+.flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+
 /* header */
 #header{
     background: url('../images/thati.jpg') center/cover no-repeat fixed;
@@ -354,6 +359,35 @@ button.neon.pink:hover {
 }
 .contact-left .btn-submit:hover{
     background-color: #000;
+}
+#portfolio {
+    background-color: #b13db7;
+}
+.portfolio-content{
+    display: inline-block;
+}
+.play-image {
+    height:300px; 
+    width:400px;
+    text-align: left;
+}
+
+.left-port {
+    padding-top:30px;
+    width:33%;
+    float:left;
+    text-align: center;
+    
+}
+
+.right-port {
+    padding-top:30px;
+    width:33%;
+    float:right;
+    text-align: center;
+}
+.port-middle {
+    padding-top:80px;
 }
 
 #insta{
