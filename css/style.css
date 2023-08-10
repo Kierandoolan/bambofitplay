@@ -245,22 +245,22 @@ button.neon.pink:hover {
 
 /* work */
 #work{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/work-pic.jpg') center/cover no-repeat fixed;
-    color: var(--light-color);
+    background-color:#000;
 }
 #work .title h2, #work h3{
-    color: var(--light-color);
+    color: #fff
 }
 #work .title h2::after{
-    background: var(--light-color);
+    color:#fff;
 }
-.work-bottom{
-    margin-top: 4rem;
-    text-align: center;
+.white-ul {
+    color:#fff;
+    font-size:20px;
+    padding:10px;
 }
-.work-bottom > div .icon img{
-    width: 50px;
-    margin: 0 auto 1.7rem auto;
+
+.red-circle {
+    color:red;
 }
 /* portfolio */
 
@@ -480,6 +480,9 @@ button.neon.pink:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
+
 
 @media(min-width: 992px){
     .insta-grid{
