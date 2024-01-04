@@ -197,7 +197,11 @@ button.neon.pink:hover {
 	margin: 0px 4px;
 	cursor: pointer;
 }
-
+.payment-section-new {
+    background-color: #000;
+    text-align: center;
+    padding-top: 30px;
+}
 .color-red{
     color:red;
 }
