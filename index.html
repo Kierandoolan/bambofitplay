@@ -1,3 +1,12 @@
+
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,90 +14,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BamboPlay</title>
-    <!-- font awesome -->
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel = "stylesheet" href = "css/style.css">
-    <link rel = "stylesheet" href = "js/script.js">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <!-- header -->
-    <header id = "header" class = "vh-100 flex">
-        <div class = "container">
-            <div class = "header-content">
-                <h1>BamboFit Play</h1>
-
-                <h3> AFINE SUA CINTURA DE MODO DIVERTIDO COM BAMBOLÊ</h3>
-                <h2>EM APENAA ALGUNS MINUTOS POR DIA!</h2>
+    <header id="header" class="vh-100 flex">
+        <div class="container">
+            <div class="header-content">
+                <h1 class ="glow-text">BamboFit Play</h1>
+    
+                <!-- Display image only on mobile screens -->
+                
+                <h3>AFINE SUA CINTURA DE MODO DIVERTIDO COM BAMBOLÊ</h3>
+                <h2 class ="mobile-style">EM APENAS ALGUNS MINUTOS POR DIA!</h2>
                 <br>
-                <button type="button" class="neon pink">QUERO ADQUIRIR POR 12X DE R$ 39,82 </button>
-                <h2 id ="button-gap">Clique no botão acima e faça sua inscrição no Plano Anual!</h2>
-                <button type="button" class="neon pink">QUERO ADQUIRIR POR R$49,90/MÊS </button>
+                <a href="/new-page.html" class="payment-border neon glow-text">
+                    QUERO ADQUIRIR POR 12X DE R$ 39,82
+                </a>
+                <h2 id="button-gap" class="neon pink" >Clique no botão acima e faça sua inscrição no Plano Anual!</h2>
+                <a href="/new-page.html" class="payment-border neon glow-text">
+                    QUERO ADQUIRIR POR R$49,90/MÊS
+                </a>
+    
+                <p id="button-gap">Clique no botão acima e faça sua inscrição no Plano Mensal, podendo cancelar quando você desejar!</p>
             </div>
-            <div class ="img-content">
-                <span class ="img">
-                <img src ="images/01.png" alt="">
-                <img src ="images/02.png" alt="">
-                <img src ="images/03.png" alt="">
-                <img src ="images/04.png" alt="">
-                <img src ="images/05.png" alt="">
-                <img src ="images/06.png" alt="">
-                <img src ="images/07.png" alt="">
-                <img src ="images/08.png" alt="">
-                <img src ="images/09.png" alt="">
+            <div class="img-content d-none d-md-block">
+                <span class="img">
+                    <img src="/assets/images/01.png" alt="">
+                    <img src="/assets/images/02.png" alt="">
+                    <img src="/assets/images/03.png" alt="">
+                    <img src="/assets/images/04.png" alt="">
+                    <img src="/assets/images/05.png" alt="">
+                    <img src="/assets/images/06.png" alt="">
+                    <img src="/assets/images/07.png" alt="">
+                    <img src="/assets/images/08.png" alt="">
+                    <img src="/assets/images/09.png" alt="">
                 </span>
             </div>
-            <div class ="header-content">
-            <p class = "color-red">Clique no botão acima e faça sua inscrição no Plano Mensal, podendo cancelar quando você desejar! </p>
-            
-            </div>
         </div>
-               
     </header>
+    
     <!-- end of header -->
 
     <!-- main content -->
     <main>
-        <section id = "section-2" class = "vh-100 py-7">
-            <div class = "container">
+        <section id="section-2" class="py-7">
+            <div class="container">
                 <h2 id="section-2-header"><b>PARA QUEM É O CURSO?</b></h2>
-                <div id="left-about">
-                        <i class="far fa-check-circle section-2-image" style="color: #fff;"></i>
-                        <hr>
-                        <p class= "section-2-font">
-                            Para quem quer fazer uma atividade física com diversão e prazer.
-                        </p>
-                </div>
-                <div id="right-about">
-                        <i class="far fa-check-circle section-2-image" style="color: #fff;"></i>
-                        <hr>
-                        <p class="section-2-font">Para quem precisa otimizar tempo e ter uma outra opção para treinar em casa durante a pandemia.</p>
-                    
-                </div>
-                    <div id="center-about">
-                        <i class="far fa-check-circle section-2-image" style="color:#fff;;"></i>
-                        <hr>
-                        <p class ="section-2-font">Para quem deseja sair do sedentarismo sem precisar ir pra academia. </p>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="far fa-check-circle section-2-image" style="color: #fff;"></i>
+                            <hr>
+                            <p class="section-2-font">Para quem quer fazer uma atividade física com diversão e prazer.</p>
+                        </div>
                     </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="far fa-check-circle section-2-image" style="color: #fff;"></i>
+                            <hr>
+                            <p class="section-2-font">Para quem precisa otimizar tempo e ter uma outra opção para treinar em casa durante a pandemia.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="far fa-check-circle section-2-image" style="color:#fff;"></i>
+                            <hr>
+                            <p class="section-2-font">Para quem deseja sair do sedentarismo sem precisar ir pra academia.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+        
+        
         <section class = "payment-section">
             <div class = "container"></div>
-                <button type="button" class="payment-border">QUERO ADQUIRIR POR 12X DE R$ 39,82 </button>
-                <h2 id ="button-gap" class="color-red">Clique no botão acima e faça sua inscrição no Plano Anual!</h2>
-                <button type="button" class="payment-border">QUERO ADQUIRIR POR R$49,90/MÊS </button>
+            <a href="/new-page.html" class="payment-border glow-text">
+                QUERO ADQUIRIR POR 12X DE R$ 39,82
+            </a>
+                <h2 id ="button-gap" class="color-white">Clique no botão acima e faça sua inscrição no Plano Anual!</h2>
+                <a href="/new-page.html" class="payment-border glow-text">
+                    QUERO ADQUIRIR POR R$49,90/MÊS
+                </a>
             </div>
             <div class ="img-content">
                 <span class ="img">
-                <img src ="images/01.png" alt="">
-                <img src ="images/02.png" alt="">
-                <img src ="images/03.png" alt="">
-                <img src ="images/04.png" alt="">
-                <img src ="images/05.png" alt="">
-                <img src ="images/06.png" alt="">
-                <img src ="images/07.png" alt="">
-                <img src ="images/08.png" alt="">
-                <img src ="images/09.png" alt="">
+                    <img src ="/assets/images/01.png" alt="">
+                    <img src ="/assets/images/02.png" alt="">
+                    <img src ="/assets/images/03.png" alt="">
+                    <img src ="/assets/images/04.png" alt="">
+                    <img src ="/assets/images/05.png" alt="">
+                    <img src ="/assets/images/06.png" alt="">
+                    <img src ="/assets/images/07.png" alt="">
+                    <img src ="/assets/images/08.png" alt="">
+                    <img src ="/assets/images/09.png" alt="">
                 </span>
             </div>
             <div class ="header-content">
@@ -101,7 +132,7 @@
             <div class = "container">
                 <div class = "about-content grid">
                     <div class = "about-left">
-                        <img src = "images/about-us.jpg" alt = "Girl Holding Hulahoop">
+                        <img src ="/assets/images/about-us.jpg" alt="">
                     </div>
                     <div class = "about-right">
                         <div class = "title">
@@ -143,40 +174,53 @@
         <!-- end of work section -->
 
         <!-- portfolio section -->
-        <section id = "portfolio" class = " py-7">
-            <div class = "container flex-container">
-                <div style="order: 1" > <img class = play-image src = "images/play_fit.png" alt = "Girl Holding Hulahoop"></div>
-                <div class = "port-middle" style="order: 2">BamboFit Play é o primeiro programa de aulas fitness 
-                    <strong>com uma proposta totalmente inovadora para modelar a
-                    cintura e</strong> proporcionar a prática de exercícios físicos 
-                    de forma <strong>divertida</strong> com variações em 30 minutos por dia,
-                    <strong>sem precisar sair de casa.</strong> A maior e <strong>mais acessível comunidade </strong>
-                    de amantes do bambolê no Brasil e quiçá no mundo.</p>
+        <section id="portfolio" class="py-7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <img class="play-image img-fluid" src="/assets/images/play_fit.png" alt="icon">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="port-middle">
+                            <p>BamboFit Play é o primeiro programa de aulas fitness 
+                                <strong>com uma proposta totalmente inovadora para modelar a cintura e</strong> 
+                                proporcionar a prática de exercícios físicos de forma <strong>divertida</strong> com variações em 30 minutos por dia,
+                                <strong>sem precisar sair de casa.</strong> A maior e <strong>mais acessível comunidade </strong>
+                                de amantes do bambolê no Brasil e quiçá no mundo.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+            </div>
         </section>
+        
         <!-- end of portfolio section -->
         <section class = "payment-section-new">
             <div class = "container"></div>
-                <button type="button" class="payment-border">QUERO ADQUIRIR POR 12X DE R$ 39,82 </button>
+            <a href="/new-page.html" class="payment-border glow-text">
+                QUERO ADQUIRIR POR 12X DE R$ 39,82
+            </a>
                 <h2 id ="button-gap" class="color-red">Clique no botão acima e faça sua inscrição no Plano Anual!</h2>
-                <button type="button" class="payment-border">QUERO ADQUIRIR POR R$49,90/MÊS </button>
+                <a href="/new-page.html" class="payment-border glow-text">
+                    QUERO ADQUIRIR POR R$49,90/MÊS
+                </a>
             </div>
             <div class ="img-content">
                 <span class ="img">
-                <img src ="images/01.png" alt="">
-                <img src ="images/02.png" alt="">
-                <img src ="images/03.png" alt="">
-                <img src ="images/04.png" alt="">
-                <img src ="images/05.png" alt="">
-                <img src ="images/06.png" alt="">
-                <img src ="images/07.png" alt="">
-                <img src ="images/08.png" alt="">
-                <img src ="images/09.png" alt="">
+                    <img src ="/assets/images/01.png" alt="">
+                    <img src ="/assets/images/02.png" alt="">
+                    <img src ="/assets/images/03.png" alt="">
+                    <img src ="/assets/images/04.png" alt="">
+                    <img src ="/assets/images/05.png" alt="">
+                    <img src ="/assets/images/06.png" alt="">
+                    <img src ="/assets/images/07.png" alt="">
+                    <img src ="/assets/images/08.png" alt="">
+                    <img src ="/assets/images/09.png" alt="">
                 </span>
             </div>
             <div class ="header-content">
-                <p class = "plan">Clique no botão acima e faça sua inscrição no Plano Mensal, podendo cancelar quando você desejar! </p>
-                <p class ="under-plan">Você vai ficar de fora? Teste por 7 dias! Se não gostar, devolvemos seu dinheiro.</p>
+                <p class = "plan mobile-style text-white">Clique no botão acima e faça sua inscrição no Plano Mensal, podendo cancelar quando você desejar! </p>
+                <p class ="under-plan mobile-style text-white">Você vai ficar de fora? Teste por 7 dias! Se não gostar, devolvemos seu dinheiro.</p>
             </div> 
         </section>
     </main>
@@ -186,28 +230,38 @@
     <footer id = "footer" class = "py-7">
         <div class = "container">
             <div class = "footer-content">
-                <div>
+            
                     <h3>BamboFit</h3>
-                    <div><img src = ""></div>
+           
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/@BamboFit" target="_blank"> <!-- Replace # with your social media link -->
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tatibambole/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@tatibambole" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://bambofit.com" target="_blank">
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+                    
+                    
+                    <!-- Add more social media icons as needed -->
                 </div>
+                <p>&copy; 2024 BamboFit All rights reserved.</p>
 
-                <div>
-                    <h3>Links</h3>
-                    <ul class = "flex">
-                        <li><a href = "#">About Me</a></li>
-                        <li><a href = "#">Work</a></li>
-                        <li><a href = "#">Portfolio</a></li>
-                        <li><a href = "#">Contact Me</a></li>
-                        <li><a href = "#">Instagram</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
     </footer>
     <!-- end of footer -->
+    <a href="https://wa.me/+5511986814202" target="_blank" class="whatsapp-icon">
+        <img src="/assets/images/whatsapp.png" alt="whatsapp-icon"  class="whatsapp-icon">
+      </a>
 
-
-    <!-- typewriting js -->
-    <script src = "typewriting-master/typewriting.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
