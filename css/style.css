@@ -80,7 +80,7 @@ h1, h2, h3{
 
 /* header */
 #header{
-    background: url('/images/thati.jpg') center/cover no-repeat fixed;
+    background: url('../images/thati.jpg') center/cover no-repeat fixed;
 
 }
 #header .container{
@@ -597,7 +597,7 @@ a.neon.pink:hover {
 
 @media (max-width: 767px) {
     #header {
-      background: url('/images/thati-mobile.jpg') center/cover no-repeat;
+      background: url('../images/thati-mobile.jpg') center/cover no-repeat;
     }
 
     .header-content {
