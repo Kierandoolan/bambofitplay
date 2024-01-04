@@ -80,7 +80,7 @@ h1, h2, h3{
 
 /* header */
 #header{
-    background: url('/assets/images/thati.jpg') center/cover no-repeat fixed;
+    background: url('/images/thati.jpg') center/cover no-repeat fixed;
 
 }
 #header .container{
@@ -398,7 +398,7 @@ a.neon.pink:hover {
 }
 
 #insta{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/assets/images/insta-pic.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('..images/insta-pic.jpg') center/cover no-repeat fixed;
     min-height: 65vh;
 }
 #insta .title h2{
@@ -597,7 +597,7 @@ a.neon.pink:hover {
 
 @media (max-width: 767px) {
     #header {
-      background: url('/assets/images/thati-mobile.jpg') center/cover no-repeat;
+      background: url('/images/thati-mobile.jpg') center/cover no-repeat;
     }
 
     .header-content {
